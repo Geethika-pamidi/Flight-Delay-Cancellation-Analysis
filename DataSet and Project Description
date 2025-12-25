@@ -1,0 +1,19 @@
+ Dataset Used
+ Kaggle: Airline Delay Cause Dataset
+ 🔗 https://lnkd.in/guM_FM5T
+🔹 Data Modeling
+Implemented Star Schema with Fact & Dimension tables
+Improved query performance and slicer interactions
+Industry-aligned modeling approach used in BI teams
+🔹 Key Insights Delivered
+Flight delay & cancellation trends across years and months
+Root cause analysis: Carrier, Weather, NAS, Late Aircraft
+Airline-wise and airport-wise performance comparison
+Identification of high-risk airports with maximum delay percentages
+🔹 Dashboards
+Page 1: Flight Delay & Cancellation Overview (KPIs, city & airline analysis)
+Page 2: Delay Trends & Root Cause Analysis (yearly, monthly & airport insights)
+🔹 Skills Demonstrated
+Power BI • Star Schema • DAX • Data Modeling
+KPI Design • Interactive Slicers • Business-focused Visuals
+This project simulates real-world airline operations analytics used for performance monitoring and decision-making.
