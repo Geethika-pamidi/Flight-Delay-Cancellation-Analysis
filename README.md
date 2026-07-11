@@ -40,7 +40,7 @@ This project analyzes **300K+ flight records** spanning **10+ years**, across mu
 ---
 📊 Data Model
 
-                 ┌─────────────────┐
+             ### ┌─────────────────┐
                  │   Dim_Time      │
                  └────────┬────────┘
                           │
