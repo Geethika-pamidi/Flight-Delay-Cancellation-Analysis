@@ -1,4 +1,4 @@
-✈️ Flight Delay and Cancellation Analysis
+# ✈️ Flight Delay and Cancellation Analysis
 
 An end-to-end aviation analytics dashboard built in Power BI, designed on a **Star Schema data model** for optimized performance and clean, scalable reporting.
 
@@ -6,43 +6,40 @@ An end-to-end aviation analytics dashboard built in Power BI, designed on a **St
 
 ---
 
-📌 Overview
+## 📌 Overview
 
 This project analyzes **300K+ flight records** spanning **10+ years**, across multiple airlines, hundreds of airports, and 6+ delay categories, to uncover the key operational factors driving flight delays and cancellations.
 
-## 🚀 What I Built
+## 📂 Dataset
 
-- Designed and developed an interactive Power BI dashboard analyzing 300K+ flight records to enable data-driven operational insights.
-- Implemented an optimized **Star Schema** data model — 1 fact table and 3 dimension tables (Time, Airline, Airport) — improving report performance and ensuring accurate aggregations at scale.
-- Performed Exploratory Data Analysis (EDA) and tracked **15+ KPIs** (total flights, delay rate, cancellation rate, delay minutes by cause).
-- Identified major delay drivers — carrier, weather, NAS, and late aircraft — highlighting key operational bottlenecks.
+- **Source:** Kaggle — [Airline Delay Cause Dataset](https://lnkd.in/guM_FM5T)
 
-## 🛠️ Tools & Technologies
+## 🔹 Data Modeling
 
-`Power BI Desktop` · `Power Query` · `DAX` · `Data Modeling (Star Schema)` · `SQL`
+- Implemented a **Star Schema** with 1 fact table and 3 dimension tables (Time, Airline, Airport).
+- Improved query performance and slicer interactions across 300K+ records.
+- Used an industry-aligned modeling approach standard in BI teams.
 
-## 📊 Data Model
+## 🔹 Key Insights Delivered
 
-```
-                 ┌─────────────────┐
-                 │   Dim_Time      │
-                 └────────┬────────┘
-                          │
-┌─────────────────┐      │      ┌─────────────────┐
-│  Dim_Airline     ├──────┼──────┤   Dim_Airport   │
-└─────────────────┘      │      └─────────────────┘
-                          │
-                 ┌────────┴────────┐
-                 │  Fact_Flights   │
-                 │  (300K+ rows)   │
-                 └─────────────────┘
-```
+- Flight delay and cancellation trends across years and months.
+- Root cause analysis: Carrier, Weather, NAS, Late Aircraft.
+- Airline-wise and airport-wise performance comparison.
+- Identification of high-risk airports with maximum delay percentages.
 
-## 📈 Key Insights
+## 🔹 Dashboards
 
-- Carrier, weather, NAS, and late aircraft are the top contributors to flight delays.
-- Delay and cancellation patterns vary significantly by airport and season.
-- The Star Schema model kept dashboard queries fast even at 300K+ record scale.
+- **Page 1:** Flight Delay & Cancellation Overview (KPIs, city & airline analysis)
+- **Page 2:** Delay Trends & Root Cause Analysis (yearly, monthly & airport insights)
+
+## 🔹 Skills Demonstrated
+
+`Power BI` · `Star Schema` · `DAX` · `Data Modeling` · `Power Query` · `SQL`
+`KPI Design` · `Interactive Slicers` · `Business-Focused Visuals`
+
+---
+
+This project simulates real-world airline operations analytics used for performance monitoring and decision-making.
 
 ## 📎 Links
 
